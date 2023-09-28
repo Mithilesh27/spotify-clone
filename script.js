@@ -7,16 +7,16 @@ let songItems= Array.from(document.getElementsByClassName('songItem'));
 let gif=document.getElementById('gif');
 let masterSongName= document.getElementById('masterSongName');
 let songs =[
-    {songName:"Believer",filePath :"1.mp3",coverPath:"covers/cover 1.png"},
-    {songName:"Unstoppable",filePath :"2.mp3",coverPath:"covers/cover 2.png"},
-    {songName:"Kesariya Tera",filePath :"3.mp3",coverPath:"covers/cover 3.png"},
-    {songName:"Khairiyat Pucho",filePath :"4.mp3",coverPath:"covers/cover 4.png"},
-    {songName:"Apna Banale",filePath :"5.mp3",coverPath:"covers/cover 5.png"},
-    {songName:"Agar Tum Saath ho",filePath :"6.mp3",coverPath:"covers/cover 6.png"},
-    {songName:"Master the Blaster",filePath :"7.mp3",coverPath:"covers/cover 7.png"},
-    {songName:"Chitti Story",filePath :"8.mp3",coverPath:"covers/cover 8.png"},
-    {songName:"Aradhya - Khushi",filePath :"9.mp3",coverPath:"covers/cover 9.png"},
-    {songName:"Heeriye Heeriye",filePath :"10.mp3",coverPath:"covers/cover 10.png"},
+    {songName:"Believer",filePath :"1.mp3",coverPath:"cover 1.png"},
+    {songName:"Unstoppable",filePath :"2.mp3",coverPath:"cover 2.png"},
+    {songName:"Kesariya Tera",filePath :"3.mp3",coverPath:"cover 3.png"},
+    {songName:"Khairiyat Pucho",filePath :"4.mp3",coverPath:"cover 4.png"},
+    {songName:"Apna Banale",filePath :"5.mp3",coverPath:"cover 5.png"},
+    {songName:"Agar Tum Saath ho",filePath :"6.mp3",coverPath:"cover 6.png"},
+    {songName:"Master the Blaster",filePath :"7.mp3",coverPath:"cover 7.png"},
+    {songName:"Chitti Story",filePath :"8.mp3",coverPath:"cover 8.png"},
+    {songName:"Aradhya - Khushi",filePath :"9.mp3",coverPath:"cover 9.png"},
+    {songName:"Heeriye Heeriye",filePath :"10.mp3",coverPath:"cover 10.png"},
 ]
 // audioElement.play()
 songItems.forEach((element,i)=>{
