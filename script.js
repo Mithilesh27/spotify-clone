@@ -1,22 +1,22 @@
 //initialize variables
 let songIndex=0;
-let audioElement = new Audio('2.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressbar');
 let songItems= Array.from(document.getElementsByClassName('songItem'));
 let gif=document.getElementById('gif');
 let masterSongName= document.getElementById('masterSongName');
 let songs =[
-    {songName:"Believer",filePath :"songs/1.mp3",coverPath:"covers/cover 1.png"},
-    {songName:"Unstoppable",filePath :"songs/2.mp3",coverPath:"covers/cover 2.png"},
-    {songName:"Kesariya Tera",filePath :"songs/3.mp3",coverPath:"covers/cover 3.png"},
-    {songName:"Khairiyat Pucho",filePath :"songs/4.mp3",coverPath:"covers/cover 4.png"},
-    {songName:"Apna Banale",filePath :"songs/5.mp3",coverPath:"covers/cover 5.png"},
-    {songName:"Agar Tum Saath ho",filePath :"songs/6.mp3",coverPath:"covers/cover 6.png"},
-    {songName:"Master the Blaster",filePath :"songs/7.mp3",coverPath:"covers/cover 7.png"},
-    {songName:"Chitti Story",filePath :"songs/8.mp3",coverPath:"covers/cover 8.png"},
-    {songName:"Aradhya - Khushi",filePath :"songs/9.mp3",coverPath:"covers/cover 9.png"},
-    {songName:"Heeriye Heeriye",filePath :"songs/10.mp3",coverPath:"covers/cover 10.png"},
+    {songName:"Believer",filePath :"1.mp3",coverPath:"covers/cover 1.png"},
+    {songName:"Unstoppable",filePath :"2.mp3",coverPath:"covers/cover 2.png"},
+    {songName:"Kesariya Tera",filePath :"3.mp3",coverPath:"covers/cover 3.png"},
+    {songName:"Khairiyat Pucho",filePath :"4.mp3",coverPath:"covers/cover 4.png"},
+    {songName:"Apna Banale",filePath :"5.mp3",coverPath:"covers/cover 5.png"},
+    {songName:"Agar Tum Saath ho",filePath :"6.mp3",coverPath:"covers/cover 6.png"},
+    {songName:"Master the Blaster",filePath :"7.mp3",coverPath:"covers/cover 7.png"},
+    {songName:"Chitti Story",filePath :"8.mp3",coverPath:"covers/cover 8.png"},
+    {songName:"Aradhya - Khushi",filePath :"9.mp3",coverPath:"covers/cover 9.png"},
+    {songName:"Heeriye Heeriye",filePath :"10.mp3",coverPath:"covers/cover 10.png"},
 ]
 // audioElement.play()
 songItems.forEach((element,i)=>{
