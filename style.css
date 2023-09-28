@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+/*set default margin and padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Attach navbar to top*/
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    position:sticky;
+    top:0;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li a{
+     color:white;
+     transition: color 0.5s;
+     cursor: pointer;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+.brand img{
+    width:44px;
+    padding:0 8px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size:large;
+}
+@media (max-width:700px){
+    .songs h1{
+        font-size:large;
+    }
+}
+/*main page-songslist,background image*/
+.container{
+    min-height:70vh;
+    background-color: black;
+    color:white;
+    font-family:'Varela Round',sans-serif ;
+    display: flex;
+    width: 80%;
+    margin:25px auto;
+    background-image: url('background\ image.jpg');
+}
+
+.bottom{
+    position: sticky;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    bottom:0;
+    background-color:white;
+    flex-direction: column;       /*to align the play, forward and backward buttons below the progress bar*/
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressbar{
+    width:50vw;
+    cursor:pointer;
+}
+.songcontainer{
+    margin-top: 20px;
+}
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    margin:12px 0; 
+    border-radius:34px;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width:50px;
+    margin:0 20px;
+    border-radius:34px;
+}
+.songinfo{
+    position:relative;
+    font-family:'Varela Round',sans-serif ;
+    font-weight: bold;
+}
+#gif{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
